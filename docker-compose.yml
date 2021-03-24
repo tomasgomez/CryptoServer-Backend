@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    # Path to dockerfile.
+    build: .
+
+    # Mapping of container port to host
+    
+    ports:
+      - "8080:8080"
+    # Mount volume 
+    volumes:
+      - "/usr/src/app"

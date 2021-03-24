@@ -1,0 +1,32 @@
+{
+  "name": "cryptoserver-backend",
+  "version": "1.0.0",
+  "description": "Service connected to CryptoMarket API, fetching information about crypto-coins and sending alarms when a setted price is reached. Also provides endpoints to collect data, store it and process it for different purposes.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasgomez/CryptoServer-Backend.git"
+  },
+  "keywords": [
+    "Cryptos",
+    "Backend",
+    "Nodejs"
+  ],
+  "author": "Tomas Gomez Molina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasgomez/CryptoServer-Backend/issues"
+  },
+  "homepage": "https://github.com/tomasgomez/CryptoServer-Backend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
